@@ -1,5 +1,3 @@
-# gabriel.augusto.3na
-
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 
@@ -30,3 +28,5 @@ kmeans.fit(X)
 # 4. Imprimir cluster de cada frase
 for i, frase in enumerate(frases):
     print(f"Frase: '{frase}' pertence ao cluster {kmeans.labels_[i]}")
+
+
